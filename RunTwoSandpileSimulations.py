@@ -3,8 +3,6 @@ import random as rnd
 import networkx as nx
 import numpy as np
 
-#size_exponent = int(raw_input('size of each network = 10^'))
-#Na = 10**size_exponent
 greeting = 'Select network type:\n\t[RR] Random regular graph\n\t[ER] Erdos-Renyi\n'
 network_type = raw_input(greeting)
 possible_network_types = ['RR','ER']
@@ -12,10 +10,8 @@ while not(network_type in possible_network_types):
 	network_type = raw_input('Enter something in '+`possible_network_types`+'\n'+greeting)
 Na = int(raw_input('size of network a = '))
 Nb = int(raw_input('size of network b = '))
-#pvalues = [0.001, 0.005, 0.01, 0.025, 0.05, 0.075, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5]
+pvalues = [0.001, 0.005, 0.01, 0.025, 0.05, 0.075, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5]
 #pvalues = [0.0005, 0.065, 0.085]
-pvalues = [0.0, 0.07, 0.08]
-#pvalues = [.1, .2]
 za = int(raw_input('z_a = '))
 zb = int(raw_input('z_b = '))
 dissipation_rate = float(raw_input('dissipation rate = '))
