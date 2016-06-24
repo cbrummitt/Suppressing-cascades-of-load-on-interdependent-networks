@@ -1,8 +1,8 @@
-Hi!
+This is a repository for simulation code for the paper 
 
-This is a repository for simulation code for the paper "Suppressing cascades of load on interdependent networks" by C. D. Brummitt, R. M. D'Souza, E. A. Leicht (2011)
+Brummitt, C. D., D'Souza, R. M., & Leicht, E. A. (2012). Suppressing cascades of load in interdependent networks. Proceedings of the National Academy of Sciences of the United States of America, 109(12), E680–E689. http://doi.org/10.1073/pnas.1110586109
 
-The simulation code is written in Python. Code for plotting the results were done in Mathematica (which may be uploaded to Github, too, but are available on request).
+The simulation code is written in Python.
 
 Charlie Brummitt
 cbrummitt@math.ucdavis.edu
